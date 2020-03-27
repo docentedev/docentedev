@@ -1,5 +1,8 @@
 # MOCK SERVER
 
+Start
+`node index.js`
+
 ## fetures
 - no tiene dependencias
 - CORS configurado para aceptar todos los origenes
@@ -50,3 +53,11 @@ module.exports = () => ({
     data: es lo que retornara el body como JSON
     status: es esta code HTTP que retornara el servicio
 - delay: parametro opcional para hacer que un servicio especifico retorna con retraso la respuesta
+
+## Ejemplo actual
+
+Al iniciar este proyecto estara disponible:
+
+- STATIC http://localhost:4000/static/config.json
+- GET http://localhost:4000/api/user
+- POST http://localhost:4000/api/user
